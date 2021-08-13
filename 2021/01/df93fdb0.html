@@ -185,7 +185,7 @@
                 <a href="/" class="waves-effect waves-light">
                     <div>
                         
-                        <img src="/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/QishengX/QishengX.github.iohttps://s1.imagehub.cc/images/2020/12/16/logo.png" class="logo-img" alt="LOGO">
+                        <img src="https://cdn.jsdelivr.net/gh/QishengX/QishengX.github.iohttps://s1.imagehub.cc/images/2020/12/16/logo.png" class="logo-img" alt="LOGO">
                         
                         <span class="logo-span">徐齐胜的博客</span>
                     </div>
@@ -285,7 +285,7 @@
 
     <div class="mobile-head bg-color">
         
-        <img src="/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/QishengX/QishengX.github.iohttps://s1.imagehub.cc/images/2020/12/16/logo.png" class="logo-img circle responsive-img">
+        <img src="https://cdn.jsdelivr.net/gh/QishengX/QishengX.github.iohttps://s1.imagehub.cc/images/2020/12/16/logo.png" class="logo-img circle responsive-img">
         
         <div class="logo-name">徐齐胜的博客</div>
         <div class="logo-desc">
@@ -656,7 +656,7 @@
 <li>安装Python语言（建议使用Anaconda方式进行安装，下面介绍基于此方式）；  </li>
 <li>安装selenium库，使用命令<code>pip install selenium</code>；  </li>
 <li>安装与浏览器版本相对应的浏览器驱动程序，以Google浏览器为例：<blockquote>
-<p>1） 查看浏览器版本号：打开Google浏览器，在地址栏输入<code>chrome://version/</code>，便可以查看到浏览器的版本号，下图中红色矩形框中的便是版本号：<br><img src="/images/loading.gif" data-original="https://s1.imagehub.cc/images/2021/01/06/1.png" alt="浏览器版本号查看示例"><br>2） 下载Google浏览器对应版本的驱动程序，下载地址为<a target="_blank" rel="noopener" href="https://chromedriver.storage.googleapis.com/index.html">https://chromedriver.storage.googleapis.com/index.html</a><br>3） 将下载的驱动文件解压，并将里面的<code>chromedriver.exe</code>程序放置到Anaconda安装目录的Scripts文件夹下，以笔者的为例：<code>D:\ProgramData\Anaconda3\Scripts</code></p>
+<p>1） 查看浏览器版本号：打开Google浏览器，在地址栏输入<code>chrome://version/</code>，便可以查看到浏览器的版本号，下图中红色矩形框中的便是版本号：<br><img src="https://s1.imagehub.cc/images/2021/01/06/1.png" alt="浏览器版本号查看示例"><br>2） 下载Google浏览器对应版本的驱动程序，下载地址为<a target="_blank" rel="noopener" href="https://chromedriver.storage.googleapis.com/index.html">https://chromedriver.storage.googleapis.com/index.html</a><br>3） 将下载的驱动文件解压，并将里面的<code>chromedriver.exe</code>程序放置到Anaconda安装目录的Scripts文件夹下，以笔者的为例：<code>D:\ProgramData\Anaconda3\Scripts</code></p>
 </blockquote>
 </li>
 </ol>
@@ -699,7 +699,7 @@ if __name__ == &#39;__main__&#39;:
 <blockquote>
 <p>一些命令的说明：</p>
 <blockquote>
-<p><code>driver.get(url)</code>：使用浏览器打开目标url；<br><code>driver.find_element_by_id(&quot;kw&quot;)</code>： 根据网页标签中HTML元素的id属性进行元素定位，本示例中定位的依据是百度搜索引擎搜索框的id，即字符串<code>kw</code>；<br><code>elem.send_keys(&quot;selenium&quot;)</code>： 向搜索框中填入搜索关键字<code>selenium</code>；<br><code>driver.find_element_by_xpath(&quot;//*[@id=&#39;su&#39;]&quot;).click()</code>： 一种新的定位元素的方式，基于xpath进行定位，这句代码前一部分是定位到了“百度一下”那个按钮，后一部分是点击操作，模拟用户的点击行为。<br><img src="/images/loading.gif" data-original="https://s1.imagehub.cc/images/2021/01/06/8c13c9f03678de1f75ebdfd6aab246d4.png" alt="代码定位元素示例"><br><strong>说明：</strong>对于使用xpath方式定位，如何获取HTML元素的xpath问题，打开目标页面，按F12或右键—检查，然后用鼠标定位到目标元素，在浏览器的Elements视口中，右键目标元素—copy—copy-XPath便可以获取目标元素的XPath值。<br><img src="/images/loading.gif" data-original="https://s1.imagehub.cc/images/2021/01/06/xpath.gif" alt="获取xpath教程.gif"></p>
+<p><code>driver.get(url)</code>：使用浏览器打开目标url；<br><code>driver.find_element_by_id(&quot;kw&quot;)</code>： 根据网页标签中HTML元素的id属性进行元素定位，本示例中定位的依据是百度搜索引擎搜索框的id，即字符串<code>kw</code>；<br><code>elem.send_keys(&quot;selenium&quot;)</code>： 向搜索框中填入搜索关键字<code>selenium</code>；<br><code>driver.find_element_by_xpath(&quot;//*[@id=&#39;su&#39;]&quot;).click()</code>： 一种新的定位元素的方式，基于xpath进行定位，这句代码前一部分是定位到了“百度一下”那个按钮，后一部分是点击操作，模拟用户的点击行为。<br><img src="https://s1.imagehub.cc/images/2021/01/06/8c13c9f03678de1f75ebdfd6aab246d4.png" alt="代码定位元素示例"><br><strong>说明：</strong>对于使用xpath方式定位，如何获取HTML元素的xpath问题，打开目标页面，按F12或右键—检查，然后用鼠标定位到目标元素，在浏览器的Elements视口中，右键目标元素—copy—copy-XPath便可以获取目标元素的XPath值。<br><img src="https://s1.imagehub.cc/images/2021/01/06/xpath.gif" alt="获取xpath教程.gif"></p>
 </blockquote>
 </blockquote>
 
@@ -905,10 +905,10 @@ if __name__ == &#39;__main__&#39;:
                         <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
                     </ul>
                     <div id="alipay">
-                        <img src="/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/QishengX/QishengX.github.iohttps://s1.imagehub.cc/images/2020/12/16/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="https://cdn.jsdelivr.net/gh/QishengX/QishengX.github.iohttps://s1.imagehub.cc/images/2020/12/16/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                     <div id="wechat">
-                        <img src="/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/QishengX/QishengX.github.iohttps://s1.imagehub.cc/images/2020/12/16/wechat.png" class="reward-img" alt="微信打赏二维码">
+                        <img src="https://cdn.jsdelivr.net/gh/QishengX/QishengX.github.iohttps://s1.imagehub.cc/images/2020/12/16/wechat.png" class="reward-img" alt="微信打赏二维码">
                     </div>
                 </div>
             </div>
@@ -980,7 +980,7 @@ if __name__ == &#39;__main__&#39;:
                     <div class="card-image">
                         
                         
-                        <img src="/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/QishengX/QishengX.github.iohttps://s1.imagehub.cc/images/2020/12/16/19.jpg" class="responsive-img" alt="Windows系统下mongoDB安装教程">
+                        <img src="https://cdn.jsdelivr.net/gh/QishengX/QishengX.github.iohttps://s1.imagehub.cc/images/2020/12/16/19.jpg" class="responsive-img" alt="Windows系统下mongoDB安装教程">
                         
                         <span class="card-title">Windows系统下mongoDB安装教程</span>
                     </div>
@@ -1037,7 +1037,7 @@ if __name__ == &#39;__main__&#39;:
                     <div class="card-image">
                         
                         
-                        <img src="/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/QishengX/QishengX.github.iohttps://s1.imagehub.cc/images/2020/12/16/9.jpg" class="responsive-img" alt="CSS动画之transform">
+                        <img src="https://cdn.jsdelivr.net/gh/QishengX/QishengX.github.iohttps://s1.imagehub.cc/images/2020/12/16/9.jpg" class="responsive-img" alt="CSS动画之transform">
                         
                         <span class="card-title">CSS动画之transform</span>
                     </div>
@@ -1342,7 +1342,7 @@ if __name__ == &#39;__main__&#39;:
             
             <br>
             
-            <span id="icp"><img src="/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/QishengX/QishengX.github.io/medias/icp.png" style="vertical-align: text-bottom;" />
+            <span id="icp"><img src="https://cdn.jsdelivr.net/gh/QishengX/QishengX.github.io/medias/icp.png" style="vertical-align: text-bottom;" />
                 <a href="http://beian.miit.gov.cn/" target="_blank">赣ICP备20002861号</a>
             </span>
             
@@ -1544,11 +1544,6 @@ $(function () {
     <script src="https://cdn.jsdelivr.net/gh/QishengX/QishengX.github.io/libs/instantpage/instantpage.js" type="module"></script>
     
 
-<script>
-            window.imageLazyLoadSetting = {
-                isSPA: false,
-                processImages: null,
-            };
-        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=i;var e=n.imageLazyLoadSetting.isSPA,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function i(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight+240||document.documentElement.clientHeight+240)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},n.src=i}()}i(),n.addEventListener("scroll",function(){var t,e;t=i,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
+</body>
 
 </html>
