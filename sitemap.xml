@@ -116,20 +116,6 @@
   </url>
   
   <url>
-    <loc>https://qishengx.github.io/tags/Markdown/</loc>
-    <lastmod>2021-08-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://qishengx.github.io/tags/%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91/</loc>
-    <lastmod>2021-08-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://qishengx.github.io/tags/mongoDB/</loc>
     <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
@@ -145,6 +131,20 @@
   
   <url>
     <loc>https://qishengx.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2021-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://qishengx.github.io/tags/Markdown/</loc>
+    <lastmod>2021-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://qishengx.github.io/tags/%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91/</loc>
     <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -188,14 +188,14 @@
   </url>
   
   <url>
-    <loc>https://qishengx.github.io/categories/Markdown/</loc>
+    <loc>https://qishengx.github.io/categories/MongoDB/</loc>
     <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://qishengx.github.io/categories/MongoDB/</loc>
+    <loc>https://qishengx.github.io/categories/Markdown/</loc>
     <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
